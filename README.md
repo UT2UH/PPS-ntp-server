@@ -17,7 +17,7 @@ You need an ESP module: I made this with the NodeMCU board, but you can get it t
 The temperature sensor is a Bosch BME280, and the display is a cheap SSD1306 one, both are using the same I2C bus.  
 The GPS I used is an [Adafruit Ultimate GPS](https://www.adafruit.com/product/746), but I have got it to work with other much cheaper modules too. If your GPS doesn't have a PPS output, you still can build and use this device, but it will operate at a reduced precision.  
 
-In my case, the 3.3V LDO can't provide enough current to supply the GPS module and the OLED screen. You may want a separate 3.3V supply to power everything.
+In my case, the 3.3V LDO on the nodeMCU board can't provide enough current to supply the GPS module and the OLED screen. You may want a separate 3.3V supply to power everything.
 
 You can download the necessary libraries from the Arduino library manager:
 - Adafruit Graphics
