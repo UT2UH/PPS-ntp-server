@@ -2,7 +2,7 @@
 
 ## What is this any why is it good to have one of this
 
-This device uses a GPS as a time source, can be used as a super-cheap Stratum-1 [NTP](https://en.wikipedia.org/wiki/Network_Time_Protocol) server. My indented use is for ham radio, where in certain digital communication modes, such as [FT-8](https://physics.princeton.edu/pulsar/k1jt/wsjtx.html) it is necessary to keep the local clocks of the stations synchronised.  
+This device uses a GPS as a time source, can be used as a super-cheap Stratum-1 [NTP](https://en.wikipedia.org/wiki/Network_Time_Protocol) server. My intended use is for ham radio, where in certain digital communication modes, such as [FT-8](https://physics.princeton.edu/pulsar/k1jt/wsjtx.html) it is necessary to keep the local clocks of the stations synchronised.  
 This is normally done via a decent NTP server over the Internet.  
 In field days where ham radio operators are in remote location without access to the Internet, this server can be used as a time source.
 
